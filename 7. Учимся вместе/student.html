@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="index.html"><img src="image/logo.svg" alt="logotype">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__list"> <a class="menu__link " href="index.html"> Главная</a></li>
+                    <li class="menu__list"> <a class="menu__link" href="students.html"> Студенты</a></li>
+                    <li class="menu__list"> <a class="menu__link" href="about.html"> О курсе</a></li>
+                    <li class="menu__list"> <a class="menu__link" href="contacts.html"> Контакты</a></li>
+                </ul>
+            </nav>
+            <a class="button" href="#">Войти</a>
+        </header>
+        <main class="content">
+            <h1 class="about_title">Остап Бендер</h1>
+            <p class="about_subtitle">Студент 3 потока "основ веб-верстки"</p>
+            <img src="image/me.jpg" alt="фото студента">
+            <h2 class="subtitle_about_me">Информация о студенте</h2>
+            <div class="info_student">
+                <ul class="info_student_blok">
+                    <li class="info_student_1">Имя:</li>
+                    <li class="info_student_2">Остап-Сулейман-Берта-Мария-Бендер-бей</li>
+                </ul>
+                <ul class="info_student_blok">
+                    <li class="info_student_1">Адрес:</li>
+                    <li class="info_student_2">Не прописан</li>
+                </ul>
+                <ul class="info_student_blok">
+                    <li class="info_student_1">Возраст:</li>
+                    <li class="info_student_2">33</li>
+                </ul>
+                <ul class="info_student_blok">
+                    <li class="info_student_1">Образование:</li>
+                    <li class="info_student_2">Учился в «частной гимназии Илиади»</li>
+                </ul>
+            </div>
+
+
+        </main>
+    </div>
+    <div class="block visible ">
+        <div class="regist_el_exit_text ">
+            <h2 class="regist_text">Войти на сайт</h2>
+        </div>
+        <div><input class="regist_el_login" autofocus placeholder="Логин" type="text"></div>
+        <div><input class="regist_el_password" placeholder="Пароль" type="text"></div>
+        <div class="regist_el_exit"> <a class="button_regist" href="#">Войти</a></div>
+
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="student.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="student_list_two.html">2</a></li>
+
+            <li class="page-item">
+                <a class="page-link" href="student_list_two.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <footer class="footer">
+        <p>2023 &copy; <a class="footer__text" href="#">учебный центр</a></p>
+    </footer>
+    <script src="regist.js">
+
+    </script>
+
+
+
+
+</body>
+
+</html>

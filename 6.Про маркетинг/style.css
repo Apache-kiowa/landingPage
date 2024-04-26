@@ -1,0 +1,319 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+
+body {
+   font-family: sans-serif;
+
+}
+
+
+.header {
+   max-width: 2000px;
+
+   background: #7BBCF9;
+   padding-top: 91.17px;
+   padding-bottom: 93.4px;
+}
+
+.header_text {
+   margin-bottom: 102px;
+   margin-top: 93px;
+   margin-right: 103px;
+   margin-left: 103px;
+
+
+
+
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 130%;
+   color: #FFFFFF;
+
+}
+
+.title {
+
+   padding-left: 93px;
+   padding-bottom: 93px;
+
+
+   width: 1160px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 65px;
+   line-height: 130%;
+   color: #FFFFFF;
+
+
+}
+
+.subtitle {
+   margin-top: 111px;
+   margin-bottom: 140px;
+   margin-left: 103px;
+   margin-right: 503px;
+   max-width: 760px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 65px;
+   line-height: 130%;
+
+   color: #7BBCF9;
+
+}
+
+.lesson_one {
+   display: flex;
+
+
+
+
+}
+
+.number {
+   margin-left: 103px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 150%;
+   color: #7BBCF9;
+}
+
+
+.caption {
+   margin-left: 103px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 150%;
+   color: #000000;
+
+
+}
+
+
+
+.text-margin-01 {
+
+   padding-bottom: 70px;
+   max-width: 560px;
+   padding-left: 555px;
+   padding-right: 103px;
+
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+
+
+   color: #676767;
+}
+
+
+
+
+
+
+.lesson_two {
+   display: flex;
+}
+
+.caption_two {
+   max-width: 460px;
+   margin-left: 103px;
+
+
+
+
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 150%;
+   color: #000000;
+}
+
+.text-margin-02 {
+
+   margin-bottom: 175px;
+
+   max-width: 560px;
+   padding-left: 347px;
+   padding-right: 103px;
+
+
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+
+
+   color: #676767;
+}
+
+
+
+
+
+
+
+.lesson_three {
+   display: flex;
+}
+
+.caption_three {
+   max-width: 424px;
+   margin-left: 103px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 150%;
+
+
+
+   color: #000000;
+}
+
+.text-margin-03 {
+   max-width: 560px;
+   padding-left: 347px;
+   padding-right: 103px;
+
+
+   margin-bottom: 175px;
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+
+
+
+   color: #676767;
+
+}
+
+
+
+.lesson_four {
+   display: flex;
+}
+
+.caption_four {
+   max-width: 424px;
+   margin-left: 103px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 150%;
+
+
+
+   color: #000000;
+}
+
+
+
+.text-margin-04 {
+   max-width: 539px;
+   padding-left: 347px;
+   padding-right: 103px;
+
+
+   margin-bottom: 175px;
+
+
+
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+
+
+
+   color: #676767;
+}
+
+
+
+.content-2 {
+
+
+
+   padding-bottom: 106px;
+   padding-top: 106px;
+
+   padding-left: 153px;
+
+
+   width: 1312.01px;
+
+
+
+   background: #7BBCF9;
+
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+
+
+}
+
+
+.text-2 {
+   max-width: 951px;
+   margin-top: 106px;
+   margin-bottom: 106px;
+   margin-left: -43px;
+   margin-right: 398.19px;
+
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 150%;
+   color: #FFFFFF;
+}
+
+.content-3 {
+   display: flex;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+   color: #676767;
+   padding-top: 100px;
+   gap: 100px;
+}
+
+.text-3 {
+   margin-left: 106px;
+   max-width: 449px;
+   margin-bottom: 420px;
+   padding-right: 140px;
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+   color: #676767;
+
+}
+
+.text-4 {
+
+   max-width: 558px;
+   padding-left: 140px;
+
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 150%;
+   color: #676767;
+}
